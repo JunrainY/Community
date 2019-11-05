@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 /**
  * @quthor yl
  * @create 2019-11-01 16:29
- * 1注解controller
+ * 1注解controller  把当前的类作为路由api的承载者
  * 2@GetMapping("/")的/为默认，直接返回路径 ，即index.html
  */
 @Controller
